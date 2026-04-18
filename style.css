@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, pink, lightblue);
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+input, textarea {
+    padding: 10px;
+    width: 250px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

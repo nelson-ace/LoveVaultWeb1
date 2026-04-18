@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Vault 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Love Vault 💖</h1>
+
+    <div id="loginBox">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username"><br><br>
+        <input type="password" id="password" placeholder="Password"><br><br>
+        <button onclick="login()">Login</button>
+        <p id="status"></p>
+    </div>
+
+    <div id="dashboard" style="display:none;">
+        <h2 id="welcome"></h2>
+
+        <textarea id="message" placeholder="Write your message here..."></textarea><br><br>
+
+        <button onclick="saveMessage()">Save</button>
+        <button onclick="loadMessage()">Load</button>
+        <button onclick="showLove()">💖 Secret Message</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
